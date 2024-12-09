@@ -8,3 +8,7 @@
 body {
   font-family: "Roboto";
 }
+
+.shadowText {
+  text-shadow: 3px 3px #ffff;
+}
