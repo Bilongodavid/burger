@@ -164,7 +164,7 @@ export default {
       pink: colors.pink,
       rose: colors.rose,
       primary: "#ffc045",
-      secodary: "#3d2514",
+      secondary: "#3d2514",
       "red-primary": "#ff2222",
     }),
     columns: {
@@ -308,6 +308,7 @@ export default {
       DEFAULT: "1",
     },
     fontFamily: {
+      secondary: ["Alfa Slab One"],
       sans: [
         "ui-sans-serif",
         "system-ui",

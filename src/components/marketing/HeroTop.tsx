@@ -1,4 +1,6 @@
 import Illustration from "../../assets/images/background/bg-food.jpg";
+import Contairner from "../elements/Container";
+import Header from "./Header";
 
 export const HeroTop = () => {
   return (
@@ -6,7 +8,11 @@ export const HeroTop = () => {
       <div
         className="w-full h-full bg-repeat"
         style={{ backgroundImage: `url(${Illustration})` }}
-      ></div>
+      >
+        <Contairner>
+          <Header />
+        </Contairner>
+      </div>
     </div>
   );
 };
