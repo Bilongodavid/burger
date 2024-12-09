@@ -166,6 +166,9 @@ export default {
       primary: "#ffc045",
       secondary: "#3d2514",
       "red-primary": "#ff2222",
+      "primary-hover": "#e5a300",
+      "secondary-hover": "#2a1b0e",
+      "red-primary-hover": "#d80000",
     }),
     columns: {
       auto: "auto",
